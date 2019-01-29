@@ -9,19 +9,19 @@ class Book(object):
     author = ""
     title = ""
 
-    def __init__(self, author, title):
+    def __init__(self, athr, ttl):
         """Constructor for the Book() class.
 
         Args:
-            author (string): author of book
-            title (string): title of book
+            athr (string): author of book
+            ttl (string): title of book
 
         Attributes:
-            author (string): author of book
-            title (string): title of book
+            athr (string): author of book
+            ttl (string): title of book
         """
-        self.author = author
-        self.title = title
+        self.theAuthor = athr
+        self.theTitle = ttl
 
     def display(self):
         """Displays the author and title of a book
@@ -38,4 +38,4 @@ class Book(object):
             book1.display()
             Of Mice and Men written by author John Steinbek
         """
-        print (self.title + " written by author " + self.author)
+        print (self.theTitle + " written by author " + self.theAuthor)
