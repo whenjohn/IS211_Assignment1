@@ -26,7 +26,17 @@ class ListDivideException(Exception):
 def testListDivide():
     """This function that tests the listDivide function.
         Raise exception if error found.
-    """
+
+    Args:
+        none
+
+    Returns:
+        ""No error if any
+
+    Examples:
+
+        >>> testListDivide()
+    """    
     if listDivide([1,2,3,4,5]) != 2:
         raise ListDivideException
 
